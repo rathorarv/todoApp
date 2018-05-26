@@ -1,0 +1,6 @@
+hash: 26713a13bf01bababdfefd4650e0c3330c2ec39c6f00994908d330cd80d9a8e3
+updated: 2018-05-25T15:14:13.241343618+05:30
+imports:
+- name: github.com/gocraft/dbr
+  version: 3ad5c8f192aedb05bf20f1d8d7d1a35e0b9358ac
+testImports: []
