@@ -14,7 +14,7 @@ const (
 
 
 func getDbConnect() *sql.DB {
-	dbInfo := fmt.Sprintf("host=%s port=%d dbName=%s sslmode=disable",
+	dbInfo := fmt.Sprintf("host=%s port=%d dbname=%s sslmode=disable",
 		host,port, dbName)
 	connection, err := sql.Open("postgres", dbInfo)
 	checkError(err)
@@ -31,8 +31,8 @@ type Todo struct {
 
 func fetchData(connection *sql.DB) []Todo{
 	tasks, err := connection.Query(getQueries("fetch"))
+	fmt.Println(err)
 	checkError(err)
-	defer connection.Close()
 	defer tasks.Close()
 	return convertToList(tasks)
 }

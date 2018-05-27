@@ -14,10 +14,10 @@ type Message struct {
 
 func getHandler(db *sql.DB) func(http.ResponseWriter,*http.Request){
 	return func (r http.ResponseWriter,req *http.Request) {
-	tasks := fetchData(db)
-	todoList,err := json.Marshal(tasks)
-	checkError(err)
-	r.Write(todoList)
+		tasks := fetchData(db)
+		todoList,err := json.Marshal(tasks)
+		checkError(err)
+		r.Write(todoList)
 	}
 }
 
@@ -28,7 +28,6 @@ func getCreateHandler(db *sql.DB) func(http.ResponseWriter,*http.Request)  {
 		var msg Message
 		json.Unmarshal(b, &msg)
 		db.Exec(getQueries("write"),msg.Title,msg.Description)
-		defer db.Close()
 		writer.Write(b)
 	}
 }

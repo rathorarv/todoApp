@@ -6,10 +6,12 @@ import (
 
 
 func main() {
-	http.HandleFunc("/",getHandler(getDbConnect()))
-	http.HandleFunc("/create", getCreateHandler(getDbConnect()))
+	dbConnection := getDbConnect()
+	http.HandleFunc("/",getHandler(dbConnection))
+	http.HandleFunc("/create", getCreateHandler(dbConnection))
 	err := http.ListenAndServe(":8000",nil)
 	if err != nil {
 		return
 	}
+	defer dbConnection.Close()
 }

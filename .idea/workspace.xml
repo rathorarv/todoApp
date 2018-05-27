@@ -3,56 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="f8924b68-00f3-4694-af81-d3df2dc2268c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/glide.lock" beforeDir="false" afterPath="$PROJECT_DIR$/glide.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/glide.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/glide.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/goTodo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/goTodo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/darwin-amd64/main.a" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/darwin-amd64/main.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/databaseReader.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/databaseReader.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/handlers.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/handlers.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/handlers_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/handlers_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/server.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/gocraft/dbr/.circleci/config.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/gocraft/dbr/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/gocraft/dbr/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/gocraft/dbr/buffer.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/gocraft/dbr/builder.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/gocraft/dbr/condition.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/gocraft/dbr/condition_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/gocraft/dbr/dbr.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/gocraft/dbr/dbr_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/gocraft/dbr/delete.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/gocraft/dbr/delete_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/gocraft/dbr/dialect.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/gocraft/dbr/dialect/dialect.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/gocraft/dbr/dialect/dialect_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/gocraft/dbr/dialect/mysql.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/gocraft/dbr/dialect/postgresql.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/gocraft/dbr/dialect/sqlite3.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/gocraft/dbr/errors.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/gocraft/dbr/event.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/gocraft/dbr/example_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/gocraft/dbr/expr.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/gocraft/dbr/ident.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/gocraft/dbr/insert.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/gocraft/dbr/insert_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/gocraft/dbr/interpolate.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/gocraft/dbr/interpolate_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/gocraft/dbr/join.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/gocraft/dbr/load.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/gocraft/dbr/now.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/gocraft/dbr/order.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/gocraft/dbr/postgres_bytea_benchmark_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/gocraft/dbr/select.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/gocraft/dbr/select_return.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/gocraft/dbr/select_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/gocraft/dbr/sqlmock_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/gocraft/dbr/transaction.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/gocraft/dbr/transaction_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/gocraft/dbr/types.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/gocraft/dbr/types_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/gocraft/dbr/union.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/gocraft/dbr/update.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/gocraft/dbr/update_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/gocraft/dbr/util.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/gocraft/dbr/util_test.go" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -67,8 +22,8 @@
       <file leaf-file-name="server.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/server.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="9" column="62" selection-start-line="9" selection-start-column="62" selection-end-line="9" selection-end-column="62" />
+            <state relative-caret-position="315">
+              <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
               <folding>
                 <element signature="e#14#88#0" expanded="true" />
               </folding>
@@ -79,8 +34,8 @@
       <file leaf-file-name="databaseReader.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/databaseReader.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-405">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="103">
+              <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
               <folding>
                 <element signature="e#14#49#0" expanded="true" />
               </folding>
@@ -88,11 +43,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="handlers.go" pinned="false" current-in-tab="false">
+      <file leaf-file-name="handlers.go" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/handlers.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+            <state relative-caret-position="544">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
               <folding>
                 <element signature="e#14#66#0" expanded="true" />
               </folding>
@@ -100,11 +55,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="handlers_test.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="handlers_test.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/handlers_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="88" column="15" selection-start-line="88" selection-start-column="15" selection-end-line="88" selection-end-column="15" />
+            <state relative-caret-position="1911">
+              <caret line="91" column="5" selection-start-line="91" selection-start-column="5" selection-end-line="91" selection-end-column="5" />
               <folding>
                 <element signature="e#14#144#0" expanded="true" />
               </folding>
@@ -125,7 +80,7 @@
         <entry file="file://$USER_HOME$/go/src/gopkg.in/DATA-DOG/go-sqlmock.v1/sqlmock.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-707">
-              <caret line="291" lean-forward="true" selection-start-line="291" selection-end-line="291" />
+              <caret line="291" selection-start-line="291" selection-end-line="291" />
             </state>
           </provider>
         </entry>
@@ -143,7 +98,7 @@
         <entry file="file:///usr/local/Cellar/go/1.10.2/libexec/src/net/http/httptest/recorder.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="178">
-              <caret line="42" column="1" lean-forward="true" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
+              <caret line="42" column="1" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -197,11 +152,11 @@
         <option value="$PROJECT_DIR$/depfile" />
         <option value="$PROJECT_DIR$/glide.yaml" />
         <option value="$PROJECT_DIR$/test/main/databaseReader_test.go" />
-        <option value="$PROJECT_DIR$/src/main/databaseReader.go" />
         <option value="$PROJECT_DIR$/src/main/queries_test.go" />
-        <option value="$PROJECT_DIR$/src/main/handlers.go" />
-        <option value="$PROJECT_DIR$/src/main/server.go" />
         <option value="$PROJECT_DIR$/src/main/handlers_test.go" />
+        <option value="$PROJECT_DIR$/src/main/databaseReader.go" />
+        <option value="$PROJECT_DIR$/src/main/server.go" />
+        <option value="$PROJECT_DIR$/src/main/handlers.go" />
       </list>
     </option>
   </component>
@@ -231,6 +186,17 @@
             <path>
               <item name="goTodo" type="b2602c69:ProjectViewProjectNode" />
               <item name="goTodo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="goTodo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="goTodo" type="462c0819:PsiDirectoryNode" />
+              <item name="pkg" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="goTodo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="goTodo" type="462c0819:PsiDirectoryNode" />
+              <item name="pkg" type="462c0819:PsiDirectoryNode" />
+              <item name="darwin-amd64" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="goTodo" type="b2602c69:ProjectViewProjectNode" />
@@ -397,12 +363,12 @@
       <option name="presentableId" value="Default" />
       <updated>1527169026985</updated>
       <workItem from="1527169031850" duration="4014000" />
-      <workItem from="1527240723302" duration="52847000" />
+      <workItem from="1527240723302" duration="54227000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56861000" />
+    <option name="totallyTimeSpent" value="58241000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -415,7 +381,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="7" weight="0.32876712" />
@@ -426,12 +391,12 @@
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.32820514" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.32820514" />
       <window_info anchor="bottom" id="Thumbnails" order="0" weight="0.32948717" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49928468" weight="0.32820514" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25751072" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25751072" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32948717" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -446,6 +411,36 @@
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Thumbnails" order="0" weight="0.32948717" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.32876712" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.32820514" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.32948717" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49928468" weight="0.32820514" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5007153" side_tool="true" weight="0.32820514" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.39871794" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25751072" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -605,14 +600,7 @@
     <entry file="file://$USER_HOME$/go/src/gopkg.in/DATA-DOG/go-sqlmock.v1/sqlmock.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-707">
-          <caret line="291" lean-forward="true" selection-start-line="291" selection-end-line="291" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/go/src/gopkg.in/DATA-DOG/go-sqlmock.v1/expectations_go18.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+          <caret line="291" selection-start-line="291" selection-end-line="291" />
         </state>
       </provider>
     </entry>
@@ -633,14 +621,31 @@
     <entry file="file:///usr/local/Cellar/go/1.10.2/libexec/src/net/http/httptest/recorder.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="178">
-          <caret line="42" column="1" lean-forward="true" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
+          <caret line="42" column="1" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/handlers_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1911">
+          <caret line="91" column="5" selection-start-line="91" selection-start-column="5" selection-end-line="91" selection-end-column="5" />
+          <folding>
+            <element signature="e#14#144#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/go/src/gopkg.in/DATA-DOG/go-sqlmock.v1/expectations_go18.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/server.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="62" selection-start-line="9" selection-start-column="62" selection-end-line="9" selection-end-column="62" />
+        <state relative-caret-position="315">
+          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
           <folding>
             <element signature="e#14#88#0" expanded="true" />
           </folding>
@@ -649,8 +654,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/databaseReader.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-405">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="103">
+          <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
           <folding>
             <element signature="e#14#49#0" expanded="true" />
           </folding>
@@ -659,20 +664,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/handlers.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+        <state relative-caret-position="544">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
           <folding>
             <element signature="e#14#66#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/handlers_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="88" column="15" selection-start-line="88" selection-start-column="15" selection-end-line="88" selection-end-column="15" />
-          <folding>
-            <element signature="e#14#144#0" expanded="true" />
           </folding>
         </state>
       </provider>
