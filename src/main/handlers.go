@@ -21,14 +21,14 @@ func getHandler(db *sql.DB) func(http.ResponseWriter,*http.Request){
 	}
 }
 
-
-func createHandler(writer http.ResponseWriter, request *http.Request) {
-	b,_ := ioutil.ReadAll(request.Body)
-	defer request.Body.Close()
-	var msg Message
-	json.Unmarshal(b, &msg)
-	con := getDbConnect()
-	con.Exec(getQueries("write"),msg.Title,msg.Description)
-	defer con.Close()
-	writer.Write(b)
+func getCreateHandler(db *sql.DB) func(http.ResponseWriter,*http.Request)  {
+	return func (writer http.ResponseWriter, request *http.Request) {
+		b,_ := ioutil.ReadAll(request.Body)
+		defer request.Body.Close()
+		var msg Message
+		json.Unmarshal(b, &msg)
+		db.Exec(getQueries("write"),msg.Title,msg.Description)
+		defer db.Close()
+		writer.Write(b)
+	}
 }
