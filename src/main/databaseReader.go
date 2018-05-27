@@ -7,16 +7,16 @@ import (
 )
 
 const (
-	host = "localhost"
-	port = 5432
-	dbname = "arvinds"
+	host   = "localhost"
+	port   = 5432
+	dbName = "arvinds"
 )
 
 
 func getDbConnect() *sql.DB {
-	dbinfo := fmt.Sprintf("host=%s port=%d dbname=%s sslmode=disable",
-		host,port,dbname)
-	connection, err := sql.Open("postgres",dbinfo)
+	dbInfo := fmt.Sprintf("host=%s port=%d dbName=%s sslmode=disable",
+		host,port, dbName)
+	connection, err := sql.Open("postgres", dbInfo)
 	checkError(err)
 	return connection
 }
@@ -29,8 +29,7 @@ type Todo struct {
 }
 
 
-func fetchData() []Todo{
-	connection := getDbConnect()
+func fetchData(connection *sql.DB) []Todo{
 	tasks, err := connection.Query(getQueries("fetch"))
 	checkError(err)
 	defer connection.Close()
