@@ -2,13 +2,13 @@ package main
 
 import (
 	"database/sql"
-	_ "github.com/lib/pq"
 	"fmt"
+	_ "github.com/lib/pq"
 )
 
 const (
 	host   = "localhost"
-	port   = 5432
+	port   = 5431
 	dbName = "arvinds"
 )
 
@@ -31,13 +31,12 @@ type Todo struct {
 
 func fetchData(connection *sql.DB) []Todo{
 	tasks, err := connection.Query(getQueries("fetch"))
-	fmt.Println(err)
 	checkError(err)
 	defer tasks.Close()
-	return convertToList(tasks)
+	return todos(tasks)
 }
 
-func convertToList(rows *sql.Rows) []Todo {
+func todos(rows *sql.Rows) []Todo {
 	todoList := make([]Todo,0)
 	for rows.Next() {
 		var id int

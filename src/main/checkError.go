@@ -1,7 +1,9 @@
 package main
 
+import "log"
+
 func checkError(err error)  {
 	if err != nil{
-		panic(err)
+		log.Fatal("error in %v",err)
 	}
 }

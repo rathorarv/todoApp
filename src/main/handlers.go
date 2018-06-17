@@ -16,12 +16,14 @@ func getHandler(db *sql.DB) func(http.ResponseWriter,*http.Request){
 	return func (r http.ResponseWriter,req *http.Request) {
 		tasks := fetchData(db)
 		todoList,err := json.Marshal(tasks)
-		checkError(err)
+		if err != nil {
+			return
+		}
 		r.Write(todoList)
 	}
 }
 
-func getCreateHandler(db *sql.DB) func(http.ResponseWriter,*http.Request)  {
+func create(db *sql.DB) func(http.ResponseWriter,*http.Request)  {
 	return func (writer http.ResponseWriter, request *http.Request) {
 		b,_ := ioutil.ReadAll(request.Body)
 		defer request.Body.Close()
