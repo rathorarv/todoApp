@@ -6,9 +6,10 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"gopkg.in/DATA-DOG/go-sqlmock.v1"
 	"net/url"
 	"strings"
+
+	"gopkg.in/DATA-DOG/go-sqlmock.v1"
 )
 
 func Test_handler(t *testing.T) {
@@ -67,8 +68,8 @@ func Test_getCreateHandler(t *testing.T) {
 		req *http.Request
 	}
 	type Input struct {
-		name     string
-		args     args
+		name string
+		args args
 	}
 
 	data := url.Values{}
@@ -79,12 +80,12 @@ func Test_getCreateHandler(t *testing.T) {
 		{"function to handle request",
 			args{
 				httptest.NewRecorder(),
-				httptest.NewRequest("", "localhost:8000",strings.NewReader(data.Encode()))},
-	},
+				httptest.NewRequest("", "localhost:8000", strings.NewReader(data.Encode()))},
+		},
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
-			createHandler(tt.args.res,tt.args.req)
+			createHandler(tt.args.res, tt.args.req)
 			if tt.args.res.Body.String() != "description=bar&title=foo" {
 				t.Fatal("body not found in request")
 			}
